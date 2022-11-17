@@ -15,6 +15,10 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 50% 85vh, 0 65vh);
 
+  @media only screen and (max-width: $bp-small) {
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 50% 85vh, 0 70vh);
+  }
+
   &--background {
     height: 65vh;
     padding: 3rem 7rem;
