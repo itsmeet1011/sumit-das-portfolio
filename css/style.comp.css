@@ -32,7 +32,7 @@ body {
 
 .btn:link,
 .btn:visited {
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: relative;
   color: #fff;
   /* font-size: 1.8rem; */
@@ -106,7 +106,7 @@ body {
   font-size: 1.4rem;
   margin-left: 5rem;
   display: flex;
-  background-color: color-grey-light-2; }
+  background-color: #eee; }
   @media only screen and (max-width: 37.5em) {
     .container {
       margin-left: 0;
