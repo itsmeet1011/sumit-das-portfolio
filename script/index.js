@@ -103,7 +103,7 @@ const obsproject = new IntersectionObserver(
   {
     root: null,
     threshold: 0,
-    rootMargin: '-150px',
+    rootMargin: '-40px',
   }
 );
 obsproject.observe(sectionGallery);
@@ -119,7 +119,7 @@ const obsproject_main = new IntersectionObserver(
   {
     root: null,
     threshold: 0,
-    rootMargin: '-250px',
+    rootMargin: '-100px',
   }
 );
 obsproject_main.observe(sectionGallery);
