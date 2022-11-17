@@ -1,0 +1,72 @@
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  position: relative;
+  color: #fff;
+  /* font-size: 1.8rem; */
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.center {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-aline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid #e31b6d;
+  padding: 1.3rem 3rem;
+}
+
+.btn__rotated {
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  transform: rotate(0deg);
+  transition: all 0.3s;
+  /* margin-left: 1rem; */
+}
+
+.btn:hover .btn__rotated {
+  transform: rotate(90deg);
+}
+
+/* <span class="material-symbols-outlined">
+  east
+  </span> */
+
+.btn:hover,
+.btn:active {
+  background-color: #e31b6d;
+  border: 2px solid #e31b6d;
+}
+
+.btn_up {
+  &-main {
+    text-decoration: none;
+    color: #fff;
+
+    z-index: 10;
+    font-size: 4rem;
+    padding: 1.8rem;
+    margin-bottom: 5rem;
+    transition: all 0.2s ease;
+  }
+
+  &-main:hover {
+    transform: translateY(-3px);
+    background-color: rgba(#fff, 0.05);
+  }
+
+  &-main:active {
+    transform: translateY(-1px);
+  }
+}

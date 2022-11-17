@@ -1,0 +1,179 @@
+.gallery__item {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.gallery__img {
+  transition: all 0.5s;
+}
+.content--2 {
+  z-index: 50;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  backface-visibility: hidden;
+}
+
+.gallery__item--1:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--1:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__btn:link,
+.gallery__btn:visited {
+  z-index: 50;
+  text-decoration: none;
+  border: 2px solid #e31b6d;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+}
+
+.gallery__btn:hover,
+.gallery__btn:active {
+  color: #fff;
+  background-color: #e31b6d;
+}
+
+.content--1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 50;
+
+  transform: translateX(-50%);
+
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  backface-visibility: hidden;
+
+  & h3 {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+  }
+
+  & p {
+    font-size: 1.2rem;
+    color: #e31b6d;
+    letter-spacing: 0.1rem;
+  }
+}
+
+.gallery__item--1:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
+
+///////////  project-2
+.gallery__item--2:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--2:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__item--2:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
+
+///////////  project-3
+.gallery__item--3:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--3:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__item--3:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
+///////////  project-4
+.gallery__item--4:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--4:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__item--4:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
+///////////  project-5
+.gallery__item--5:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--5:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__item--5:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
+///////////  project-6
+.gallery__item--6:hover .content--2 {
+  opacity: 1;
+  visibility: visible;
+  top: 60%;
+  left: 50%;
+}
+
+.gallery__item--6:hover .gallery__img {
+  filter: opacity(0);
+}
+
+.gallery__item--6:hover .content--1 {
+  opacity: 1;
+  visibility: visible;
+
+  top: 25%;
+}
