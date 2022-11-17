@@ -126,9 +126,9 @@
       padding: 0 3rem;
       gap: 1.3rem;
     }
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-smallest) {
       gap: 0.5rem;
-      padding: 0.5rem 3rem;
+      padding: 0.5rem 1rem;
     }
   }
 
@@ -144,8 +144,8 @@
     transition: all 0.3s;
 
     @media only screen and (max-width: $bp-small) {
-      font-size: 1.4rem;
-      padding: 0.7rem 1.8rem;
+      font-size: 1.6rem;
+      padding: 1.2rem 1.8rem;
     }
   }
 

@@ -34,8 +34,11 @@
 
 .gallery__btn:link,
 .gallery__btn:visited {
-  z-index: 50;
+  display: inline-block;
   text-decoration: none;
+  color: #444649;
+  z-index: 50;
+
   border: 2px solid #e31b6d;
   background-color: transparent;
   text-transform: uppercase;
