@@ -106,7 +106,7 @@ body {
   font-size: 1.4rem;
   margin-left: 5rem;
   display: flex;
-  background-color: #eee; }
+  background-color: color-grey-light-2; }
   @media only screen and (max-width: 37.5em) {
     .container {
       margin-left: 0;
@@ -265,6 +265,9 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 50% 85vh, 0 65vh); }
+  @media only screen and (max-width: 37.5em) {
+    .section__header {
+      clip-path: polygon(0 0, 100% 0, 100% 70vh, 50% 85vh, 0 70vh); } }
   .section__header--background {
     height: 65vh;
     padding: 3rem 7rem;
@@ -535,10 +538,10 @@ body {
     .sticky__main-nav-list {
       padding: 0 3rem;
       gap: 1.3rem; } }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 31.25em) {
     .sticky__main-nav-list {
       gap: 0.5rem;
-      padding: 0.5rem 3rem; } }
+      padding: 0.5rem 1rem; } }
 
 .sticky__page-link:link, .sticky__page-link:visited {
   display: inline-block;
@@ -551,8 +554,8 @@ body {
   transition: all 0.3s; }
   @media only screen and (max-width: 37.5em) {
     .sticky__page-link:link, .sticky__page-link:visited {
-      font-size: 1.4rem;
-      padding: 0.7rem 1.8rem; } }
+      font-size: 1.6rem;
+      padding: 1.2rem 1.8rem; } }
 
 .sticky__page-link:hover, .sticky__page-link:active {
   color: #e31b6d; }
@@ -561,7 +564,7 @@ body {
   grid-column: full-start/full-end;
   padding: 8rem;
   background-color: #1b242f;
-  color: #eee;
+  color: #f9f9f9;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -569,7 +572,7 @@ body {
 .icon-div {
   overflow: hidden;
   text-decoration: none;
-  color: #eee;
+  color: #f9f9f9;
   margin: 2rem auto 5rem; }
 
 .icon {
@@ -740,8 +743,10 @@ body {
 
 .gallery__btn:link,
 .gallery__btn:visited {
-  z-index: 50;
+  display: inline-block;
   text-decoration: none;
+  color: #1b242f;
+  z-index: 50;
   border: 2px solid #e31b6d;
   background-color: transparent;
   text-transform: uppercase;

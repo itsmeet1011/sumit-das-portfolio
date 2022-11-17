@@ -30,7 +30,7 @@
   justify-content: center;
 
   &__content {
-    background-color: #29bfac;
+    background-color: $color-primary;
     color: #fff;
     height: 18rem;
     padding: 1rem 1.5rem 4rem;
@@ -61,8 +61,8 @@
 
   background-image: linear-gradient(
     to right,
-    rgba(56, 239, 126, 0.8),
-    rgba(4, 194, 201, 0.8)
+    rgba($color-background-green, 0.8),
+    rgba($color-background-blue, 0.8)
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -105,5 +105,5 @@
 }
 
 .footer_name {
-  color: #e31b6d;
+  color: $colore-highlight;
 }

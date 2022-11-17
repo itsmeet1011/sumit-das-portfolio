@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  border: 2px solid #e31b6d;
+  border: 2px solid $colore-highlight;
   padding: 1.3rem 3rem;
 }
 
@@ -45,8 +45,8 @@
 
 .btn:hover,
 .btn:active {
-  background-color: #e31b6d;
-  border: 2px solid #e31b6d;
+  background-color: $colore-highlight;
+  border: 2px solid $colore-highlight;
 }
 
 .btn_up {

@@ -1,8 +1,8 @@
 .footer {
   grid-column: full-start/full-end;
   padding: 8rem;
-  background-color: #1b242f;
-  color: #eee;
+  background-color: $color-background-dark;
+  color: $color-grey-light-1;
 
   // display: grid;
   // grid-template-columns: 1fr;
@@ -21,7 +21,7 @@
 .icon-div {
   overflow: hidden;
   text-decoration: none;
-  color: #eee;
+  color: $color-grey-light-1;
   margin: 2rem auto 5rem;
 }
 
