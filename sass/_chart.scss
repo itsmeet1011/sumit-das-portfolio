@@ -19,7 +19,7 @@
 
   display: flex;
 
-  background-color: color-grey-light-2;
+  background-color: $color-grey-light-2;
 
   @media only screen and (max-width: $bp-small) {
     margin-left: 0;
